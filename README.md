@@ -29,8 +29,7 @@ like Twitter, Reddit, or The New York Times offer APIs to retrieve data. If you
 want to learn how to use web APIs in Python, see D-Lab's [Python Web
 APIs](https://github.com/dlab-berkeley/Python-Web-APIs) workshop.
 
-
-Muy útil aclaración. Destaca que el web scraping no siempre es la primera opción, ya que muchas plataformas ofrecen APIs oficiales. Además, conecta con otro taller relacionado, fomentando la continuidad en el aprendizaje.
+Destaca que el web scraping no siempre es la primera opción, ya que muchas plataformas ofrecen APIs oficiales. Además, conecta con otro taller relacionado, fomentando la continuidad en el aprendizaje.
 
 ## Installation Instructions
 
