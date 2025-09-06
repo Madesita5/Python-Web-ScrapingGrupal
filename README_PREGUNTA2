@@ -1,0 +1,23 @@
+b) TP2 – Scraping de sitio basado en JavaScript
+
+El web scraping de un sitio web que utiliza JavaScript puede ser más complicado que el scraping de un sitio estático, ya que los datos a menudo se cargan dinámicamente mediante JavaScript. Para esto, existen varias herramientas y enfoques:
+
+Uso de Selenium o Playwright:
+Estas son bibliotecas que permiten automatizar un navegador para interactuar con la página web de manera similar a cómo lo haría un usuario real. Pueden esperar a que JavaScript termine de cargar los datos antes de proceder con la extracción.
+  
+  Selenium: Es una opción popular que puede controlar un navegador como Chrome o Firefox, ejecutar JavaScript, y extraer los datos que se muestran en la página.
+  
+  Playwright: Es más rápido que Selenium y también permite el control de navegadores para interactuar con sitios dinámicos.
+
+Proceso de scraping:
+
+  Configurar el navegador: Lanza un navegador automatizado (Chrome, Firefox) mediante Selenium o Playwright.
+  
+  Esperar la carga: Asegúrate de que la página esté completamente cargada antes de intentar extraer los datos.
+  
+  Extraer datos: Usar técnicas como find_element_by_xpath o CSS selectors para seleccionar y extraer los elementos relevantes (por ejemplo, títulos, enlaces, precios, etc.).
+
+Almacenamiento: Los datos extraídos se pueden guardar en archivos CSV, bases de datos, o estructuras como listas de Python para su posterior análisis.
+
+Alternativas a Selenium/Playwright:
+Si el sitio tiene una API pública o usa un formato de datos como JSON o XML, es mucho más eficiente hacer un scraping de esos datos directamente, en lugar de interactuar con la interfaz web.
