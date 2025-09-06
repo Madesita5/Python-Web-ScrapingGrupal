@@ -21,3 +21,8 @@ Almacenamiento: Los datos extraídos se pueden guardar en archivos CSV, bases de
 
 Alternativas a Selenium/Playwright:
 Si el sitio tiene una API pública o usa un formato de datos como JSON o XML, es mucho más eficiente hacer un scraping de esos datos directamente, en lugar de interactuar con la interfaz web.
+
+
+Por eso, antes de lanzarse a usar estas herramientas, conviene investigar si el sitio expone los datos a través de peticiones de red en segundo plano (por ejemplo, llamadas a un endpoint en formato JSON). Muchas veces, con solo inspeccionar el tráfico en las herramientas de desarrollo del navegador, podemos encontrar la fuente de datos y extraerla directamente con requests en Python, lo que ahorra tiempo y reduce la complejidad.
+
+En conclusión, el scraping de sitios dinámicos no se trata solo de elegir la herramienta más avanzada, sino de entender cómo fluye la información en la página y optar por el camino más simple y eficiente. De esta manera, se puede evitar la sobrecarga de automatizar un navegador cuando no es realmente necesario.
